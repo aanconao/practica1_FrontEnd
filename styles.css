@@ -1,0 +1,39 @@
+.centerAll {
+  text-align: center;
+  flex-direction: column;
+}
+.my_button {
+  background-color: grey;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+.foto {
+  border-radius: 20%;
+  aspect-ratio: 1;
+}
+
+.article {
+  text-align: center;
+}
+.contenedorConFoto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  max-width: 600px;
+}
+.centrarTexto {
+  max-width: 600;
+  margin: auto;
+  padding: 10;
+}
+.iconos a {
+  font-size: 24px;
+  margin: 10px;
+  color: #333;
+}
+.iconos a:hover {
+  color: #007bff;
+}
